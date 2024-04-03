@@ -14,7 +14,7 @@ export default function Index({ posts, globalData }) {
       <SEO title={globalData.name} description={globalData.blogTitle} />
       <Header name={globalData.name} />
       <main className="w-full">
-        <Image src="https://drive.google.com/file/d/1d_oEg9pJVYWcyyaJW2_06-dfFhoC8cOR/view?usp=sharing" alt="ff"></Image>
+        <image src="https://drive.google.com/file/d/1d_oEg9pJVYWcyyaJW2_06-dfFhoC8cOR/view?usp=sharing" alt="ff"></image>
       </main>
       <Footer copyrightText={globalData.footerText} />
       <GradientBackground
